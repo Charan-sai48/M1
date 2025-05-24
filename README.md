@@ -10,6 +10,18 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+int main()
+{
+    char ch1, ch2, ch3;
+    scanf(" %c", &ch1);
+    scanf(" %c", &ch2);
+    scanf(" %c", &ch3);
+    printf("Characters in reverse order: %c %c %c\n", ch3, ch2, ch1);
+    return 0;
+}
+```
 
 ## OUTPUT:
 
@@ -46,7 +58,20 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
-
+```
+#include <stdio.h>
+int main()
+{
+    int A;
+    scanf("%d", &A);
+    if (A > 0) {
+        printf("The number is positive.\n");
+    } else {
+        printf("The number is not positive.\n");
+    }
+    return 0;
+}
+```
 # OUTPUT:
 
 
@@ -80,7 +105,21 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
-
+```
+#include <stdio.h>
+int main() 
+{
+    float a, b, min1;
+    float c,d,min2;
+    scanf("%f%f", &a,&b);
+    scanf("%f%f", &c,&d);
+    min1 = a / b;
+    min2 =c / d;
+    float min = (min1 < min2) ? min1 : min2;
+    printf("The minimum number is: %f\n", min);
+    return 0;
+}
+```
 ## OUTPUT:
 
 
@@ -111,7 +150,18 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
-
+```
+#include <stdio.h>
+int main() 
+{
+    int value;
+    scanf("%d", &value);
+    if (value == 1) {
+        printf("The value is equal to 1.\n");
+    }
+    return 0;
+}
+```
 ## OUTPUT:
 
 
@@ -147,7 +197,34 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+```
+#include <stdio.h>
+int main() 
+{
+    int m1, m2, m3, total;
+    float percentage;
+    scanf("%d %d %d", &m1, &m2, &m3);
+    total = m1 + m2 + m3;
+    percentage = ((float)total)/ 3.0;
+    if (m1 < 35 || m2 < 35 || m3 < 35 || percentage < 35) {
+        printf("Result: Fail\n");
+    }
+    else if (percentage >= 60) {
+        printf("Result: First Division\n");
+    }
+    else if (percentage >= 50) {
+        printf("Result: Second Division\n");
+    }
+    else {
+        printf("Result: Pass\n");
+    }
 
+    printf("Total Marks = %d\n", total);
+    printf("Percentage = %.2f%%\n", percentage);
+
+    return 0;
+}
+```
 ## OUTPUT:
 
 ## RESULT:
