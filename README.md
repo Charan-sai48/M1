@@ -10,7 +10,7 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -24,6 +24,7 @@ int main()
 ```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/5ccf7ab2-d9d0-4fde-80e2-c4a69fb47eb1)
 
 
 
@@ -58,7 +59,7 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -73,6 +74,7 @@ int main()
 }
 ```
 # OUTPUT:
+![image](https://github.com/user-attachments/assets/feb3a6a0-51cd-4318-a4a5-160dfe22efeb)
 
 
 
@@ -105,7 +107,7 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
-```
+```c
 #include <stdio.h>
 int main() 
 {
@@ -121,6 +123,8 @@ int main()
 }
 ```
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/359541c0-e21b-46b6-97d2-320f91926765)
+
 
 
 
@@ -150,7 +154,7 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
-```
+```c
 #include <stdio.h>
 int main() 
 {
@@ -164,6 +168,7 @@ int main()
 ```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/fe9a264a-368b-4d1f-a603-ed81200690ed)
 
 
 
@@ -197,7 +202,7 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
-```
+```c
 #include <stdio.h>
 int main() 
 {
@@ -226,6 +231,7 @@ int main()
 }
 ```
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/040fbab7-baee-4e81-a416-87715eeb40ac)
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
